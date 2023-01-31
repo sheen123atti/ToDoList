@@ -11,7 +11,7 @@ export default function App() {
   }
   const add = (u_input) => {
     if (!u_input) {
-      alert('Empty Input')
+      alert('Please type something to add.')
     }
     else {
       //setList(list.concat(u_input))
