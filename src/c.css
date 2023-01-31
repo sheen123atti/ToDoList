@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Trirong");
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+*{
+    box-sizing: border-box;
+    font-family: 'Trirong';
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.center{
+    width: 50%;
+    height: 80vh;
+    background-color: black;
+    box-shadow: 7px 7px 15px 4px black;
+    color: #FCF6F5FF;
+    border-radius: 10px;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+}
+.container{
+    display: block;
+    margin: 0px;
+    position:relative;
+}
+.container label{
+    display: block;
+    padding: 10px 243px 10px 250px;
+    margin: 20px 10px 20px 10px;
+    font-size: 30px;
+    font-family: 'Sofia';
+    color: black;
+    background: transparent;
+    background-color: #89ABE3FF;
+    box-shadow: 3px 3px 0px 1px #FCF6F5FF;
+    border-radius: 15px;
+}
+.container input{
+    text-align: center;
+    font-size: 20px;
+    height: 30px;
+    color: black;
+    border-radius: 10px;
+}
+.container button{
+    margin-left: 15px;
+    font-size: 23px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #89ABE3FF;
+}
+.container button:hover{
+    cursor: pointer;
+    color: #FCF6F5FF;
+}
+.container button:after{
+    transform: translateY(5px);
+}
+.theList{
+    display: block;
+    position: absolute;
+    top: 140px;
+}
+.theList ul{
+    margin-top: 30px;
+    list-style-type: none;
+    position: relative;
+}
+.theList li{
+    padding-left: 0px;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 27px;
+    position: absolute;
+    left: 10px;
+}
+.theList button{
+    font-size: 15px;
+    position: inherit;
+    left: 85vh;
+    top: 14px;
+    text-align: center;
+    border-radius: 7px;
+    color: black;
+    background-color: rgba(255, 0, 0, 0.705);
+}
+.theList button:hover{
+    cursor: pointer;
+    color: #FCF6F5FF;
+    background-color: rgba(255, 0, 0, 0.852);
+}
+.theList button:active{
+    transform: translateY(2px);
+}
